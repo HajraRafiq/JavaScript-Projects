@@ -64,3 +64,17 @@ form.addEventListener('submit' , function(e){
 
 
 ```
+
+## 3. Digital Clock
+
+```javaScript
+  const clock = document.getElementById("clock")
+
+  setInterval(function (){
+      let date = new Date()
+      clock.innerHTML = date.toLocaleTimeString();
+
+  },1000)
+
+
+```
